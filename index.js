@@ -9,6 +9,9 @@ function scuberGreetingForFeet(rideDistance){
   else (rideDistance > 2501){
    return 'No can do.';
   } 
+  else {
+  return`Your ride is ${rideDistance} feet. Hop in!`;
+  }
 
 }
 
