@@ -6,7 +6,7 @@ function scuberGreetingForFeet(rideDistance){
   else if (rideDistance > 2000 && rideDistance < 2501){
     return'I will gladly take your thirty bucks.';
   }   
-  else if (rideDistance > 2501){
+  else (rideDistance > 2500){
    return 'No can do.';
   } 
 
