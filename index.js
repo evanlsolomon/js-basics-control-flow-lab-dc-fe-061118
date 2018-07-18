@@ -1,5 +1,5 @@
 // Write your code in this file!
-scuberGreetingForFeet(rideDistance){
+function scuberGreetingForFeet(rideDistance){
   if (rideDistance < 400){
     return 'This one is on me!'
   } 
@@ -14,7 +14,7 @@ scuberGreetingForFeet(rideDistance){
   }
 }
 
-ternaryCheckCity (city){
+function ternaryCheckCity (city){
   if(city === 'NYC'){
     return 'Ok, sounds good.';
   }
