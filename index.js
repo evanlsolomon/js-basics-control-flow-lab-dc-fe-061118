@@ -23,7 +23,7 @@ function ternaryCheckCity (city){
   }
 }
 
-switchOnCharmFromTip(tipQuality){
+function switchOnCharmFromTip(tipQuality){
   if (tipQuality ==='generous'){
     return 'Thank you so much.';
   }
